@@ -11,8 +11,6 @@ const getChar = (c) => {
 
 }
 
-
-
 /* Kata 2
 8kyu
 Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. 
