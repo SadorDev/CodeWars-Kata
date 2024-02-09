@@ -7,3 +7,12 @@
  This code is concise and adheres to the principles discussed earlier. It uses the String.fromCharCode() method to convert the given number to its corresponding ASCII character. The console.log() statements help in debugging and verifying the results during testing. The test cases demonstrate how the function works with different inputs. Overall, your initial code is clear and suitable for the task at hand.
 
  **String Methods**
+
+ # Kata 3
+ Can also be written:
+
+ ```
+ const stringToNumber = function(str) {
+  return parseInt(str);
+}
+```
