@@ -1,17 +1,4 @@
 /* Kata 1
-8kyu 
-Write a function which takes a number and returns the corresponding ASCII char for that value.
-Example:
-65 --> 'A'
-97 --> 'a'
-48 --> '0
-*/
-
-const getChar = (c) => {
-
-}
-
-/* Kata 2
 8kyu
 Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. 
 If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
@@ -26,3 +13,21 @@ const lovefunc = (flower1, flower2) => {
     return false;
   }
 };
+
+/* Kata 2
+8kyu 
+Write a function which takes a number and returns the corresponding ASCII char for that value.
+Example:
+65 --> 'A'
+97 --> 'a'
+48 --> '0
+*/
+
+const getChar = (c) => {
+  const string = String.fromCharCode(c);
+  return string;
+};
+
+console.log(getChar(43)); 
+console.log(getChar(21)); 
+console.log(getChar(58)); 
