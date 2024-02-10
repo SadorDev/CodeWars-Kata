@@ -54,6 +54,18 @@ the same backwards as forwards, such as madam or racecar.
 */
 
 function isPalindrome(x) {
-  if (x.toLowerCase()) {
+  const lowerCaseX = x.toLowerCase();
+  const aplhanumericX = lowerCaseX.replace(/[^a-z0-9]/g, "");
+  const reverseX = aplhanumericX.split("").reverse().join("");
+
+  if (aplhanumericX === reverseX) {
+    console.log(x + " is a palindrome");
+    return true;
+  } else {
+    console.log(x + " is not a palindrome");
+    return false;
   }
 }
+
+isPalindrome("A man, a plan, a canal, Panama");
+isPalindrome("A man, a plan, a canal, orange");
