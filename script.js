@@ -46,3 +46,14 @@ const stringToNumber = function (str) {
 
 // What other ways can I write this?
 
+/* Kata 4
+8yu
+Write a function that checks if a given string (case insensitive) is a palindrome.
+A palindrome is a word, number, phrase, or other sequence of symbols that reads 
+the same backwards as forwards, such as madam or racecar.
+*/
+
+function isPalindrome(x) {
+  if (x.toLowerCase()) {
+  }
+}
