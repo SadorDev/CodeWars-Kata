@@ -69,3 +69,8 @@ function isPalindrome(x) {
 
 isPalindrome("A man, a plan, a canal, Panama");
 isPalindrome("A man, a plan, a canal, orange");
+
+/* Kata 5
+8kyu
+Code as fast as you can! You need to double the integer and return it.
+*/
