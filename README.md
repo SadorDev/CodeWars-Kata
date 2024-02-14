@@ -56,3 +56,9 @@ If the original string and its reversed version are not equal, it means the stri
 The function logs that the input is not a palindrome and returns false.
 
 So, the overall function takes an input string, performs the necessary transformations (lowercasing, removing non-alphanumeric characters, reversing), and then checks if the resulting string is a palindrome.
+
+
+### Kata 8
+
+So I learned about the ```Math.min Math.max```methods which returns the largest of the numbers given as input 
+parameters
