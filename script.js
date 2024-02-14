@@ -93,9 +93,9 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 const solution = (number) => {};
 
 /* Kata 7
+8kyu 
 Complete the function that takes two integers (a, b, where a < b) and return 
 an array of all integers between the input parameters, including them.
-8kyu 
 */
 
 const between = (a, b) => {
@@ -125,3 +125,12 @@ The second argument is a mapping function that generates values for each index i
 The underscore (_) is a convention for a variable that is intentionally ignored. Here, we use it as a placeholder for the value that fill() would normally use.
 index represents the current index of the array.
 */
+
+/* Kata 8
+8yu
+Your task is to make two functions ( max and min, or maximum and minimum, etc., 
+depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively
+Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language ) that receive a list of integers as input, 
+and return the largest and lowest number in that list, respectively.
+*/
+
