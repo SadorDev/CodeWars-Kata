@@ -134,3 +134,11 @@ Your task is to make two functions ( max and min, or maximum and minimum, etc., 
 and return the largest and lowest number in that list, respectively.
 */
 
+const min = (list) => {
+  return Math.min(...list);
+};
+
+const max = (list) => {
+  return Math.max(...list);
+};
+
