@@ -112,8 +112,6 @@ function between(a, b) {
 
 // Example usage:
 const result = between(1, 4);
-console.log(result); // Output: [1, 2, 3, 4]
-
 /*
 Explanation:
 
