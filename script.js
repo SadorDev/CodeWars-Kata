@@ -77,7 +77,7 @@ Code as fast as you can! You need to double the integer and return it.
 
 function doubleInteger(i) {
   // i will be an integer. Double it and return it.
-  return i *2;
+  return i * 2;
 }
 
 /* Kata 6
@@ -90,9 +90,7 @@ Additionally, if the number is negative, return 0.
 Note: If the number is a multiple of both 3 and 5, only count it once.
 */
 
-const solution = (number) => {
-  
-} 
+const solution = (number) => {};
 
 /* Kata 7
 Complete the function that takes two integers (a, b, where a < b) and return 
@@ -101,5 +99,5 @@ an array of all integers between the input parameters, including them.
 */
 
 const between = (a, b) => {
-  
-}
+  return Array.from(a == b);
+};
