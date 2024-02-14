@@ -101,3 +101,29 @@ an array of all integers between the input parameters, including them.
 const between = (a, b) => {
   return Array.from(a == b);
 };
+
+function between(a, b) {
+  // Create an array-like structure using Array.from() with a length equal to the range between a and b.
+  // Use the fill() method to populate the array with placeholder values.
+  // The second argument of fill() is not important in this case, as we will be mapping over the array.
+
+  return Array.from({ length: b - a + 1 }, (_, index) => a + index);
+}
+
+// Example usage:
+const result = between(1, 4);
+console.log(result); // Output: [1, 2, 3, 4]
+
+/*
+Explanation:
+
+Array.from({ length: b - a + 1 }, (_, index) => a + index):
+
+We use Array.from() to create an array-like structure.
+The first argument is an object with a length property representing the size of the array, which is calculated as b - a + 1 to ensure inclusivity.
+The second argument is a mapping function that generates values for each index in the array. We use a + index to produce the sequence of integers.
+{ _, index } in the mapping function:
+
+The underscore (_) is a convention for a variable that is intentionally ignored. Here, we use it as a placeholder for the value that fill() would normally use.
+index represents the current index of the array.
+*/
