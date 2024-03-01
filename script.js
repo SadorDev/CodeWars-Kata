@@ -1,4 +1,4 @@
-/* Kata 1
+/* KATA 1
 8kyu
 
 Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. 
@@ -14,7 +14,7 @@ const lovefunc = (flower1, flower2) => {
   }
 };
 
-/* Kata 2
+/* KATA 2
 8kyu 
 
 Write a function which takes a number and returns the corresponding ASCII char for that value.
@@ -32,7 +32,7 @@ console.log(getChar(43));
 console.log(getChar(21));
 console.log(getChar(58));
 
-/* Kata 3
+/* KATA 3
 8kyu
 
 Convert a String to a Number!
@@ -46,7 +46,7 @@ const stringToNumber = function (str) {
 
 // What other ways can I write this?
 
-/* Kata 4
+/* KATA 4
 8yu
 Write a function that checks if a given string (case insensitive) is a palindrome.
 A palindrome is a word, number, phrase, or other sequence of symbols that reads 
@@ -70,7 +70,7 @@ function isPalindrome(x) {
 isPalindrome("A man, a plan, a canal, Panama");
 isPalindrome("A man, a plan, a canal, orange");
 
-/* Kata 5
+/* KATA 5
 8kyu
 Code as fast as you can! You need to double the integer and return it.
 */
@@ -80,7 +80,7 @@ function doubleInteger(i) {
   return i * 2;
 }
 
-/* Kata 6
+/* KATA 6
 6kyu
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. 
 The sum of these multiples is 23.
@@ -92,7 +92,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 
 const solution = (number) => {};
 
-/* Kata 7
+/* KATA 7
 8kyu 
 Complete the function that takes two integers (a, b, where a < b) and return 
 an array of all integers between the input parameters, including them.
@@ -126,7 +126,7 @@ The underscore (_) is a convention for a variable that is intentionally ignored.
 index represents the current index of the array.
 */
 
-/* Kata 8
+/* KATA 8
 8yu
 Your task is to make two functions ( max and min, or maximum and minimum, etc., 
 depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively
@@ -142,7 +142,7 @@ const max = (list) => {
   return Math.max(...list);
 };
 
-/* Kata 9
+/* KATA 9
 8kyu
 Complete the function that takes two integers (a, b, where a < b) and
 return an array of all integers between the input parameters, including them
