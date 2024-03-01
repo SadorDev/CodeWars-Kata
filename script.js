@@ -148,21 +148,7 @@ function between2(a, b) {
   return Array.from({ length: b - a + 1 }, (_, index) => a + index);
 }
 
-// Example usage:
-const result = between2(1, 4);
-/*
-Explanation:
 
-Array.from({ length: b - a + 1 }, (_, index) => a + index):
-
-We use Array.from() to create an array-like structure.
-The first argument is an object with a length property representing the size of the array, which is calculated as b - a + 1 to ensure inclusivity.
-The second argument is a mapping function that generates values for each index in the array. We use a + index to produce the sequence of integers.
-{ _, index } in the mapping function:
-
-The underscore (_) is a convention for a variable that is intentionally ignored. Here, we use it as a placeholder for the value that fill() would normally use.
-index represents the current index of the array.
-*/
 
 
 
