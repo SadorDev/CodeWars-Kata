@@ -98,11 +98,11 @@ Complete the function that takes two integers (a, b, where a < b) and return
 an array of all integers between the input parameters, including them.
 */
 
-const between = (a, b) => {
+const between1 = (a, b) => {
   return Array.from(a == b);
 };
 
-function between(a, b) {
+function between2(a, b) {
   // Create an array-like structure using Array.from() with a length equal to the range between a and b.
   // Use the fill() method to populate the array with placeholder values.
   // The second argument of fill() is not important in this case, as we will be mapping over the array.
@@ -111,7 +111,7 @@ function between(a, b) {
 }
 
 // Example usage:
-const result = between(1, 4);
+const result = between2(1, 4);
 /*
 Explanation:
 
@@ -142,3 +142,14 @@ const max = (list) => {
   return Math.max(...list);
 };
 
+/* Kata 9
+8kyu
+Complete the function that takes two integers (a, b, where a < b) and
+return an array of all integers between the input parameters, including them
+*/
+
+const between3 = (a, b) => {
+    return Array.from(index => index)
+  }
+
+  console.log(between3(0,5));
