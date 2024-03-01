@@ -68,13 +68,31 @@ The function logs that the input is not a palindrome and returns false.
 
 So, the overall function takes an input string, performs the necessary transformations (lowercasing, removing non-alphanumeric characters, reversing), and then checks if the resulting string is a palindrome.
 
-### Kata 5
-
-So I learned about the `Math.min Math.max`methods which returns the largest of the numbers given as input
-parameters
 
 ### Kata 6
+1. Check for a Negative Number: First, you need to check if the input number is negative. If it is, the task is straightforward: you return 0 because there are no natural numbers below a negative number that would meet your criteria.
 
+2. Find Multiples of 3 and 5: For positive numbers, you'll want to go through each number starting from 1 up to (but not including) the input number. For each of these numbers, you'll check if it's a multiple of 3 or 5. Remember, a number is a multiple of another if the remainder of their division is zero.
+
+3. Avoid Counting Duplicates: If a number is a multiple of both 3 and 5 (like 15, 30, etc.), you should only count it once. This step is naturally covered if you're adding up numbers that meet either condition without specifically segregating them into 'multiples of 3' and 'multiples of 5'.
+
+4. Sum the Multiples: As you identify each number that is a multiple of 3 or 5, add it to a running total. This sum will start at 0 and grow as you find numbers that meet the criteria.
+
+5. Return the Sum: After you've checked all numbers up to (but not including) the input number, return the total sum you've calculated.
+
+#### In code: 
+
+A function that takes one input (the threshold number)
+A check right at the start of the function to return 0 if the input is negative.
+A loop that starts from 1 and goes up to one less than the input number.
+Within the loop, conditionals to check if the current number is a multiple of 3 or 5.
+A running total that adds up these numbers.
+Returning the total sum after the loop completes.
+
+
+
+
+### Kata 7
 1. Start by receiving two numbers as input.
 2. Prepare a list to hold the numbers between the two provided numbers.
 3. Look at each number starting from the first one to the second one, including both.
@@ -82,18 +100,24 @@ parameters
 5. Once you've looked at all the numbers between the two provided ones, return the list containing all the numbers you found.
 
 #### Using the for loop
-   - Start by preparing a place to keep your numbers: Imagine you have a basket that can hold numbers. This basket will eventually contain all the numbers from a to b, including both a and b.
 
-   - Begin at your starting number (a): Think of a as the first number you want to put in your basket. It's your starting point.
+- Start by preparing a place to keep your numbers: Imagine you have a basket that can hold numbers. This basket will eventually contain all the numbers from a to b, including both a and b.
 
-   - Check if you've reached the last number (b): Before you put a number in the basket, check if you've gone past b. If a is less than or equal to b,   you're still within your range, and you can proceed. This is like checking if there's still room in the basket for your next number.
+- Begin at your starting number (a): Think of a as the first number you want to put in your basket. It's your starting point.
 
-    -Put the current number in the basket: If the current number is within the range (from step 3), add it to your basket. This is your way of saying, "This number is between a and b, so it belongs in my collection."
+- Check if you've reached the last number (b): Before you put a number in the basket, check if you've gone past b. If a is less than or equal to b, you're still within your range, and you can proceed. This is like checking if there's still room in the basket for your next number.
 
-     -Move to the next number: After putting the current number in your basket, move to the next number. This is like stepping from one stone to the next across a stream. You're moving from your current number to the next number in line.
+  -Put the current number in the basket: If the current number is within the range (from step 3), add it to your basket. This is your way of saying, "This number is between a and b, so it belongs in my collection."
 
-     -Repeat the process until you reach b: Keep repeating steps 3 to 5. Each time, you'll check if you're still within your range, put the number in your basket if you are, and then move to the next number. You keep doing this until you've reached b.
+  -Move to the next number: After putting the current number in your basket, move to the next number. This is like stepping from one stone to the next across a stream. You're moving from your current number to the next number in line.
 
-     -Once you've reached b, you've now considered all numbers from a to b, and your basket contains all these numbers.
+  -Repeat the process until you reach b: Keep repeating steps 3 to 5. Each time, you'll check if you're still within your range, put the number in your basket if you are, and then move to the next number. You keep doing this until you've reached b.
 
-     -Your basket is now full: At this point, your basket (the collection you've been adding numbers to) is complete. It contains all numbers from a to b, inclusive.
+  -Once you've reached b, you've now considered all numbers from a to b, and your basket contains all these numbers.
+
+  -Your basket is now full: At this point, your basket (the collection you've been adding numbers to) is complete. It contains all numbers from a to b, inclusive.
+
+### Kata 8
+
+So I learned about the `Math.min Math.max`methods which returns the largest of the numbers given as input
+parameters

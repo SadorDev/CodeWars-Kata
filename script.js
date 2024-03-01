@@ -14,6 +14,10 @@ const lovefunc = (flower1, flower2) => {
   }
 };
 
+
+
+
+
 /* KATA 2
 8kyu 
 
@@ -28,9 +32,8 @@ const getChar = (c) => {
   return string;
 };
 
-console.log(getChar(43));
-console.log(getChar(21));
-console.log(getChar(58));
+
+
 
 /* KATA 3
 8kyu
@@ -45,6 +48,10 @@ const stringToNumber = function (str) {
 };
 
 // What other ways can I write this?
+
+
+
+
 
 /* KATA 4
 8yu
@@ -70,6 +77,9 @@ function isPalindrome(x) {
 isPalindrome("A man, a plan, a canal, Panama");
 isPalindrome("A man, a plan, a canal, orange");
 
+
+
+
 /* KATA 5
 8kyu
 Code as fast as you can! You need to double the integer and return it.
@@ -80,6 +90,11 @@ function doubleInteger(i) {
   return i * 2;
 }
 
+
+
+
+
+
 /* KATA 6
 6kyu
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. 
@@ -89,8 +104,31 @@ multiples of 3 or 5 below the number passed in.
 Additionally, if the number is negative, return 0.
 Note: If the number is a multiple of both 3 and 5, only count it once.
 */
+function solution(number) {
+  // Step 1: Check for a negative number and return 0 if the condition is true
+  if (number <= 0) {
+    return 0; // Return 0 immediately if the number is negative or 0
+  }
+  
+  let sum = 0; // This will hold the sum of the multiples
+  
+  // Step 2 & 3: Find multiples of 3 and 5, avoiding duplicates by counting a number only once
+  for (let i = 1; i < number; i++) {
+    // If 'i' is divisible by 3 or 5, add it to the sum
+    if (i % 3 === 0 || i % 5 === 0) {
+      sum += i;
+    }
+  }
 
-const solution = (number) => {};
+  return sum; // Return the calculated sum
+}
+
+
+
+
+
+
+
 
 /* KATA 7
 8kyu 
@@ -126,6 +164,10 @@ The underscore (_) is a convention for a variable that is intentionally ignored.
 index represents the current index of the array.
 */
 
+
+
+
+
 /* KATA 8
 8yu
 Your task is to make two functions ( max and min, or maximum and minimum, etc., 
@@ -141,6 +183,13 @@ const min = (list) => {
 const max = (list) => {
   return Math.max(...list);
 };
+
+
+
+
+
+
+
 
 /* KATA 9
 8kyu
