@@ -148,8 +148,12 @@ Complete the function that takes two integers (a, b, where a < b) and
 return an array of all integers between the input parameters, including them
 */
 
-const between3 = (a, b) => {
-    return Array.from(index => index)
+const between = (a, b) => {
+  let numbers = [];
+
+  for (let i = a; i <= b; i++) {
+    numbers.push(i);
   }
 
-  console.log(between3(0,5));
+  return numbers;
+};
