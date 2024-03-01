@@ -14,10 +14,6 @@ const lovefunc = (flower1, flower2) => {
   }
 };
 
-
-
-
-
 /* KATA 2
 8kyu 
 
@@ -32,9 +28,6 @@ const getChar = (c) => {
   return string;
 };
 
-
-
-
 /* KATA 3
 8kyu
 
@@ -48,10 +41,6 @@ const stringToNumber = function (str) {
 };
 
 // What other ways can I write this?
-
-
-
-
 
 /* KATA 4
 8yu
@@ -77,9 +66,6 @@ function isPalindrome(x) {
 isPalindrome("A man, a plan, a canal, Panama");
 isPalindrome("A man, a plan, a canal, orange");
 
-
-
-
 /* KATA 5
 8kyu
 Code as fast as you can! You need to double the integer and return it.
@@ -89,11 +75,6 @@ function doubleInteger(i) {
   // i will be an integer. Double it and return it.
   return i * 2;
 }
-
-
-
-
-
 
 /* KATA 6
 6kyu
@@ -109,9 +90,9 @@ function solution(number) {
   if (number <= 0) {
     return 0; // Return 0 immediately if the number is negative or 0
   }
-  
+
   let sum = 0; // This will hold the sum of the multiples
-  
+
   // Step 2 & 3: Find multiples of 3 and 5, avoiding duplicates by counting a number only once
   for (let i = 1; i < number; i++) {
     // If 'i' is divisible by 3 or 5, add it to the sum
@@ -122,13 +103,6 @@ function solution(number) {
 
   return sum; // Return the calculated sum
 }
-
-
-
-
-
-
-
 
 /* KATA 7
 8kyu 
@@ -148,12 +122,6 @@ function between2(a, b) {
   return Array.from({ length: b - a + 1 }, (_, index) => a + index);
 }
 
-
-
-
-
-
-
 /* KATA 8
 8yu
 Your task is to make two functions ( max and min, or maximum and minimum, etc., 
@@ -170,13 +138,6 @@ const max = (list) => {
   return Math.max(...list);
 };
 
-
-
-
-
-
-
-
 /* KATA 9
 8kyu
 Complete the function that takes two integers (a, b, where a < b) and
@@ -192,3 +153,8 @@ const between = (a, b) => {
 
   return numbers;
 };
+
+/* KATA 10
+/*
+
+*/
