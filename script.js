@@ -163,3 +163,15 @@ It should look like this:
 Sam Harris => S.H
 patrick feeney => P.F
 */
+
+const abbrevName = (name) => {
+  // Split the name into an array of characters
+  const nameArray = name.split(" ");
+  
+  // Extract the first letter of the first name and last name, and capitalize them
+  const firstNameInitial = nameArray[0].charAt(0).toUpperCase();
+  const lastNameInitial = nameArray[1].charAt(0).toUpperCase();
+  
+  // Concatenate the initials with a dot separator
+  return firstNameInitial + '.' + lastNameInitial;
+}
