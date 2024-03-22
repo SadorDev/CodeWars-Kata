@@ -185,3 +185,9 @@ of the light and returns a string representing the state the light should change
 
 For example, when the input is green, output should be yellow.
 */
+
+const updateTrafficLight = (current) => {
+  return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green'
+}
+
+console.log(current);
