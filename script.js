@@ -155,7 +155,7 @@ const between = (a, b) => {
 };
 
 /* KATA 10
-/*
+8kyu
 Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
 The output should be two capital letters with a dot separating them.
 It should look like this:
@@ -175,3 +175,13 @@ const abbrevName = (name) => {
   // Concatenate the initials with a dot separator
   return firstNameInitial + '.' + lastNameInitial;
 }
+
+/* KATA 11
+8kyu
+You're writing code to control your town's traffic lights. You need a function to 
+handle each change from green, to yellow, to red, and then to green again.
+Complete the function that takes a string as an argument representing the current state 
+of the light and returns a string representing the state the light should change to.
+
+For example, when the input is green, output should be yellow.
+*/
