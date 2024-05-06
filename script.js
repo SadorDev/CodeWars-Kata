@@ -191,3 +191,12 @@ const updateTrafficLight = (current) => {
 }
 
 console.log(current);
+
+/* KATA 12 
+8kyu
+This code does not execute properly. Try to figure out why.
+function multiply(a, b){
+  a * b
+}
+*/
+
