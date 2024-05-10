@@ -30,7 +30,6 @@ const getChar = (c) => {
 
 /* KATA 3
 8kyu
-
 Convert a String to a Number!
 */
 
@@ -70,11 +69,11 @@ isPalindrome("A man, a plan, a canal, orange");
 8kyu
 Code as fast as you can! You need to double the integer and return it.
 */
-
 function doubleInteger(i) {
   // i will be an integer. Double it and return it.
   return i * 2;
 }
+
 
 /* KATA 6
 6kyu
@@ -213,3 +212,13 @@ If a name has exactly 4 letters in it, you can be sure that it has to be a frien
 Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 i.e.friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 */
+
+function friend(friends){
+  //your code here
+  // const friend = friends.length >= 4
+  // friends.filter( )
+  // return friend
+
+  return friends.filter(a => a.length === 4 )
+
+}
