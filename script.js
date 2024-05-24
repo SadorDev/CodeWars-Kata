@@ -219,6 +219,12 @@ function friend(friends){
   // friends.filter( )
   // return friend
 
-  return friends.filter(a => a.length === 4 )
-
 }
+
+
+/* KATA 14 
+8kyu
+Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. 
+You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, 
+there shouldn't be a space at the beginning or the end of the sentence!
+*/
