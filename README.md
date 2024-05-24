@@ -131,5 +131,6 @@ parameters
   -Your basket is now full: At this point, your basket (the collection you've been adding numbers to) is complete. It contains all numbers from a to b, inclusive.
 
 
-### Kata 10 
-
+### Kata 14
+Initially tried ```concat``` but ```concat``` merges two arrays together where ```join``` merges the elements 
+of an array into a string
